@@ -23,9 +23,11 @@ body{
 
 .page-indicator{
     text-align: center;
-    width: 30%;
+    width: 100%;
     position: relative;
-    left: calc(50% - 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
     #indicator{

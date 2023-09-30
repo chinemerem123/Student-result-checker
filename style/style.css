@@ -21,9 +21,11 @@ body {
 
 .page-indicator {
   text-align: center;
-  width: 30%;
+  width: 100%;
   position: relative;
-  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .page-indicator #indicator {
   margin-left: 30px;
