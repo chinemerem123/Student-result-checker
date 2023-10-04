@@ -269,5 +269,35 @@
   }/*# sourceMappingURL=style.css.map */
 
   .btns a:nth-child(1){
-background-color: ;
+background-color: rgb(47, 96, 246);
+color: white;
+padding: 12px;
+border-radius: 4px;
+text-decoration: none;
+  }
+
+  .btns a:nth-child(2){
+    background-color: rgb(0, 157, 63);
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+      }
+
+      .btns a:nth-child(3){
+        background-color: rgb(0, 169, 174);
+        color: white;
+        padding: 12px;
+        border-radius: 4px;
+        text-decoration: none;
+          }
+
+  @media print{
+    .result * {
+       visibility: hidden;
+    }
+
+#content, #content * {
+       visibility:visible ;
+    }
   }
