@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 10rem;
+  }
+  
+  main {
+    border: 1px solid black;
+    width: 72rem;
+    padding: 20px;
+    transform: scale(0.9);
+    position: relative;
+  }
+  main #watermark {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 250px);
+    top: calc(50% - 250px);
+    opacity: 0.1;
+  }
+  
+  table#first {
+    border-spacing: 0;
+    width: 70rem;
+    height: 15rem;
+    margin: auto;
+  }
+  table#first tr.top td {
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  table#first tr.top td:nth-child(2) {
+    border: 1px solid black;
+    border-top: 0px;
+    width: 65%;
+  }
+  table#first tr.top td:nth-child(2):first-child, table#first tr.top td:nth-child(2):nth-child(3) {
+    width: 20%;
+  }
+  table#first tr.top td:nth-child(2) p {
+    margin: 0.7rem 0;
+  }
+  table#first .passport > img {
+    width: 8rem;
+    display: block;
+    text-align: left;
+    margin-left: 0.5rem;
+  }
+  table#first .position p {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+  }
+  table#first .position span {
+    font-size: 20px;
+    margin-right: 0.5rem;
+  }
+  table#first .position img {
+    width:30px;
+  }
+  table#first tr.about td {
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  table#first tr.about td h3 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  table#first tr.about td p {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  table#second {
+    border-spacing: 0;
+    width: 70rem;
+    height: 5rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  table#second tr.stats td {
+    border-bottom: 1px solid black;
+  }
+  table#second tr.stats td:first-child {
+    border-bottom: 1px solid black;
+    border-top: 0px;
+    width: 33%;
+  }
+  table#second tr.stats td:nth-child(2) {
+    border: 1px solid black;
+    border-top: 0px;
+    width: 33%;
+  }
+  table#second tr.stats td:nth-child(3) {
+    border-bottom: 1px solid black;
+    border-top: 0px;
+    width: 33%;
+  }
+  table#second tr.stats td p {
+    margin: 0.5rem 0;
+    font-weight: 500;
+  }
+  
+  div#third {
+    width: 70rem;
+    height: 50rem;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+    position: relative;
+  }
+  div#third .result {
+    width: 51.5rem;
+    display: inline-block;
+    border-collapse: collapse;
+    position: absolute;
+    top: 2rem;
+  }
+  div#third .upper {
+    height: 15rem;
+    font-weight: bold;
+  }
+  div#third .upper th {
+    border: 1px solid black;
+    border-width: 0.25rem;
+    text-align: center;
+    font-size: 0.85rem;
+    transform: rotate(270deg);
+    width: 4rem;
+  }
+  div#third .upper th.subjects {
+    text-align: left;
+    padding: 0.25rem;
+    font-size: 1.2rem;
+    transform: rotate(0);
+    width: 15rem;
+  }
+  div#third td {
+    border: 1px solid black;
+    border-width: 0.25rem;
+    padding: 0.25rem;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 4rem;
+  }
+  div#third td.subjects {
+    text-align: left;
+    width: 15rem;
+  }
+  div#third p {
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  div#third #others {
+    width: 18rem;
+    display: inline-block;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+  }
+  div#third #others p {
+    margin: 1rem 0;
+  }
+  div#third #others .affective {
+    border-collapse: collapse;
+  }
+  div#third #others .affective td:first-child {
+    width: 15rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  div#third #others .affective td:last-child {
+    width: 3rem;
+    text-align: center;
+  }
+  div#third #others .psychomotor {
+    border-collapse: collapse;
+  }
+  div#third #others .psychomotor td:first-child {
+    width: 15rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  div#third #others .psychomotor td:last-child {
+    width: 3rem;
+    text-align: center;
+  }
+  div#third #others .grading {
+    border-collapse: collapse;
+  }
+  div#third #others .grading td:first-child {
+    width: 4rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  div#third #others .grading td:last-child {
+    width: 14rem;
+  }
+  
+  table#fourth {
+    border-spacing: 0;
+    width: 70rem;
+    height: 4rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+  }
+  table#fourth td:first-child {
+    padding-top: 0.5rem;
+    font-weight: bold;
+  }
+  table#fourth td:nth-child(2) {
+    border-left: 1px solid black;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
+  }
+  table#fourth .total {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  table#fourth .total td {
+    border: 1px solid black;
+    width: 19.6666666667%;
+    padding: 0.25rem;
+    border-width: 0.25rem;
+    font-weight: 100;
+  }
+  
+  table#fifth {
+    width: 70rem;
+    height: 6rem;
+    margin: auto;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+  }
+  table#fifth span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  div#sixth {
+    width: 70rem;
+    height: 5rem;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.4rem;
+  }
+  div#sixth span {
+    font-weight: bold;
+  }/*# sourceMappingURL=style.css.map */
