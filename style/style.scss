@@ -93,13 +93,14 @@ body{
     width: 100%;
 
     .box-1{
+        display: none;
       @include box();
 
     }
 
     
     .box-2{
-        display: none;
+       
         @include box();
     }
 }

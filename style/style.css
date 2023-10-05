@@ -63,6 +63,7 @@ body {
   width: 100%;
 }
 .holder .box-1 {
+  display: none;
   width: 35%;
   box-shadow: 5px 5px 10px rgba(77, 77, 77, 0.1);
   background-color: white;
@@ -82,7 +83,6 @@ body {
   padding: 12px;
 }
 .holder .box-2 {
-  display: none;
   width: 35%;
   box-shadow: 5px 5px 10px rgba(77, 77, 77, 0.1);
   background-color: white;
