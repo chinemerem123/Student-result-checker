@@ -21,10 +21,10 @@
     width: 72rem;
     padding: 20px;
     position: relative;
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.4);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.5);
+    transform: scale(0.8);
+    -moz-transform: scale(0.5);
   }
 
   
@@ -273,6 +273,15 @@
   div#sixth span {
     font-weight: bold;
   }/*# sourceMappingURL=style.css.map */
+
+  .footer{
+    padding: 30px;
+    padding-left: 50px;
+  }
+
+  .btns{
+    margin-top: 20px;
+  }
 
   .btns a:nth-child(1){
 background-color: rgb(47, 96, 246);
