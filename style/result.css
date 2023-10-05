@@ -304,6 +304,7 @@ text-decoration: none;
 
   @media screen and (max-width:800px){
     body{
+      width: 100%;
       overflow: auto;
     }
     main {
@@ -311,6 +312,5 @@ text-decoration: none;
       padding: 20px;
       transform: scale(0.7);
       position: relative;
-      left: calc(50% - 40%);
     }
   }
