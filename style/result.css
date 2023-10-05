@@ -306,6 +306,7 @@ text-decoration: none;
     body{
       width: 100%;
       overflow: auto;
+      display: block;
     }
     .result{
       padding: 30px;
