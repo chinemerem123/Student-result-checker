@@ -310,6 +310,7 @@ text-decoration: none;
     }
     .result{
       width: 100%;
+      background-color: red;
     }
     main {
       width: 72rem;
