@@ -307,6 +307,10 @@ text-decoration: none;
       width: 100%;
       overflow: auto;
     }
+    .result{
+      padding: 30px;
+      margin-left: 20%;
+    }
     main {
       width: 72rem;
       padding: 20px;
