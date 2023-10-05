@@ -310,6 +310,7 @@ text-decoration: none;
     }
     .result{
       width: 100%;
+      overflow: auto;
     }
     main {
       width: 72rem;
