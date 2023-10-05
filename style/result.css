@@ -21,10 +21,10 @@
     width: 72rem;
     padding: 20px;
     position: relative;
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.5);
-    transform: scale(0.8);
-    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.7);
+    transform: scale(0.9);
+    -moz-transform: scale(0.7);
   }
 
   
