@@ -334,4 +334,9 @@ text-decoration: none;
       position: relative;
       margin-right: 10%;
     }
+    .footer{
+      width: 100%;
+      padding: 15px;
+      margin-left: 20px;
+    }
   }
