@@ -7,12 +7,13 @@
   <title>SCHOOL RESULT</title>
   
   <link rel="stylesheet" href="/style/result.css">
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
 
 </head>
 
 <body>
-    <div class="result">
+    <div  class="result">
+      <div class="grab" id="grab">
   <main id="content">
     <img id="watermark" src="https://png.pngtree.com/png-vector/20230130/ourmid/pngtree-education-logo-and-school-badge-design-template-png-image_6576036.png" alt="">
     <table id="first">
@@ -479,18 +480,27 @@
     </div>
     </table>
   </main>
+</div>
 
   <div class="footer">
 <div class="note">NOTE: For better print out use chrome browser</div>
   <div class="btns">
     <a href="#" id="print">Print</a>
-    <a href="#" id="download">Download</a>
+    <a href="#"  id="download">Download</a>
     <a href="#">Send to Email</a>
   </div>
 </div>
 </div>
 
 <script>
+document.getElementById("download").addEventListener('click',()=>{
+  var element = document.getElementById('grab');
+            html2pdf().from(element).save();
+})
+         
+
+
+
 const printBtn=document.getElementById("print");
 printBtn.addEventListener("click",()=>{
     print();
@@ -504,7 +514,7 @@ const res=document.getElementById("content");
 }
 
 </script>
-  
+  <script src="/js/download.js"></script>
 </body>
 
 </html>
