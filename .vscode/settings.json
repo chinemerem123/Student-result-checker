@@ -1,3 +1,22 @@
 {
-    "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Kebab Case",
+    "unit": "px",
+    "framework": "html-css",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project_name": "result",
+    "id": "6537a7c1ad4f8fff87365449",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "c:\\Users\\HP\\Documents\\GitHub\\Student-result-checker\\src\\components",
+    "screensPath": "c:\\Users\\HP\\Documents\\GitHub\\Student-result-checker\\src\\pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
 }
